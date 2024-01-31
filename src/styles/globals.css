@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto&display=swap");
 *,
 *::after,
 *::before {
@@ -6,7 +5,7 @@
 }
 /* Variáveis CSS */
 :root {
-  --cor-primaria-fundo: #0b0a3f;
+  --cor-primaria-fundo: rgb(252, 48, 48);
   --cor-primaria-fundo-hover: #030226;
   --cor-primaria: #f2f2f2;
   --cor-primaria-hover: #ebebeb;
@@ -24,7 +23,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  background-color: #ededf7;
+  background-color: #262626;
 
   /* Propriedades recomendadas para
   minimizar a chance de serrilhamento de fontes
@@ -35,7 +34,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 h2 {
   margin: 1rem 0;

@@ -5,21 +5,17 @@ import styled from "styled-components";
 export default function Menu() {
   const rotaAtual = usePathname();
 
+  const linkAtivo = (rota) => (rotaAtual === rota ? "ativo" : "");
+
   return (
     <StyledNav>
-      <Link href="/" className={rotaAtual == "/" ? "ativo" : ""}>
-        Blog
+      <Link href="/" className={linkAtivo("/")}>
+        Notícias
       </Link>
-      <Link
-        href="/produtos"
-        className={rotaAtual == "/produtos" ? "ativo" : ""}
-      >
-        Produtos
+      <Link href="/watch" className={linkAtivo("/watch")}>
+        Watch
       </Link>
-      <Link href="/sobre" className={rotaAtual == "/sobre" ? "ativo" : ""}>
-        Sobre
-      </Link>
-      <Link href="/contato" className={rotaAtual == "/contato" ? "ativo" : ""}>
+      <Link href="/contato" className={linkAtivo("/contato")}>
         Contato
       </Link>
     </StyledNav>

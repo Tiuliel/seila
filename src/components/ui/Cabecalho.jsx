@@ -1,22 +1,13 @@
 import Link from "next/link";
-import Menu from "./Menu";
-import Image from "next/image";
 import styled from "styled-components";
+import Menu from "./Menu";
 
 export default function Cabecalho() {
   return (
     <StyledHeader>
       <div className="limitador">
         <h1>
-          <Link href="/">
-            <Image
-              src="/images/logo.png"
-              width={48}
-              height={48}
-              alt="Patinha dentro de um coração"
-            />
-            PetShop
-          </Link>
+          <Link href="/">Movie</Link>
         </h1>
         <Menu />
       </div>
@@ -25,8 +16,9 @@ export default function Cabecalho() {
 }
 
 const StyledHeader = styled.header`
-  background-color: #f7f7f7;
+  background-color: #000;
   box-shadow: var(--sombra-box);
+
   h1 a {
     text-decoration: none;
     color: var(--cor-primaria);
@@ -37,15 +29,16 @@ const StyledHeader = styled.header`
     display: flex;
     justify-content: center;
     align-items: center;
-
     &:hover,
     &:focus {
       color: var(--cor-secundaria-hover);
     }
   }
+
   img {
     margin-right: 0.5rem;
   }
+
   div {
     display: flex;
     justify-content: space-between;
@@ -54,7 +47,7 @@ const StyledHeader = styled.header`
     padding-bottom: 1rem;
   }
 
-  @media (min-width: 700px) {
+  @media screen and (min-width: 700px) {
     div {
       flex-direction: row;
     }

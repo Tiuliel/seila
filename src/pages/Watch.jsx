@@ -2,11 +2,11 @@ import Container from "@/components/ui/Container";
 import Head from "next/head";
 import styled from "styled-components";
 
-export default function Sobre() {
+export default function Watch() {
   return (
     <>
       <Head>
-        <title>Sobre - PetShop</title>
+        <title>Watch - Movie</title>
         <meta
           name="description"
           content="Missão, visão e valores do nosso PetShop"
@@ -14,18 +14,17 @@ export default function Sobre() {
         <meta name="keywords" content="petshop, missão, visão, valores" />
       </Head>
       <StyledSobre>
-        <h2>Sobre nosso PetShop</h2>
+        <h2>Recomendações</h2>
 
         <Container>
-          <h3>Missão</h3>
-
+          <h3>Icebergs</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
             totam veritatis facilis asperiores placeat. Quos tempore
             exercitationem soluta recusandae eum.
           </p>
 
-          <h3>Visão</h3>
+          <h3>Tipos de filmes</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
             aliquam praesentium aliquid soluta! Vel quasi earum debitis ullam,
@@ -34,7 +33,7 @@ export default function Sobre() {
             reiciendis perspiciatis quaerat?
           </p>
 
-          <h3>Valores</h3>
+          <h3>Onde assistir:</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
             est ducimus libero consequuntur nulla odit.

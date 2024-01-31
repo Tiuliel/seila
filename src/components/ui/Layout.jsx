@@ -1,5 +1,5 @@
-import Link from "next/link";
 import Cabecalho from "./Cabecalho";
+
 export default function Layout({ children }) {
   return (
     <>

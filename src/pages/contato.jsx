@@ -6,12 +6,12 @@ export default function Contato() {
   return (
     <>
       <Head>
-        <title>Contato - PetShop</title>
+        <title>Contato - Movie</title>
         <meta
           name="description"
           content="Entre em contato conosco pelo formulário abaixo"
         />
-        <meta name="keywords" content="petshop, contato" />
+        <meta name="keywords" content="movie, contato" />
       </Head>
       <StyledContato>
         <h2>Fale Conosco</h2>
