@@ -7,7 +7,7 @@ export default function Cabecalho() {
     <StyledHeader>
       <div className="limitador">
         <h1>
-          <Link href="/">Movie</Link>
+          <Link href="/">Blog do @TiuLiel</Link>
         </h1>
         <Menu />
       </div>

@@ -12,9 +12,7 @@ export default function Menu() {
       <Link href="/" className={linkAtivo("/")}>
         Notícias
       </Link>
-      <Link href="/watch" className={linkAtivo("/watch")}>
-        Watch
-      </Link>
+
       <Link href="/contato" className={linkAtivo("/contato")}>
         Contato
       </Link>

@@ -4,8 +4,13 @@ export default function Document() {
   return (
     <Html lang="pt-br">
       <Head>
-        <link rel="" href="" type="" sizes="256x256" />
-        <meta name="author" content="Nicolas O. Amorim." />
+        <link
+          rel="shortcut icon"
+          href="/images/blog.png"
+          type="image/png"
+          sizes="256x256"
+        />
+        <meta name="author" content="Eliel Moura." />
       </Head>
       <body>
         <Main />
